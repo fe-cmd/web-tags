@@ -1,0 +1,956 @@
+[
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 1,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "If \\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+    "explanation": "\\(log_{y}\\frac{1}{8} = 3 \\implies y^{3} = \\frac{1}{8}\\) (Laws of logarithm)\\(y^{3} = \\frac{1}{2^{3}} = (\\frac{1}{2})^{3}\\)Equating both sides, we have\\(y = \\frac{1}{2}\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 2,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "A binary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+    "explanation": "\\(a \\Delta b\\) = \\(\\frac{a+b}{\\sqrt{ab}}\\)\\(-3\\Delta -1\\) = \\(\\frac{-3 + -1}{\\sqrt{-3\\times -1}}\\)\\(\\frac{-4}{\\sqrt{3}}\\), rationalising, we have\\(\\frac{-4 \\times \\sqrt{3}}{\\sqrt{3}\\times \\sqrt{3}} = \\frac{-4\\sqrt{3}}{3}\\)",
+    "options": [
+      {
+        "option": "A",
+        "text": "inary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 3,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Simplify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+    "explanation": "\\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)\u00a0\\((1-\\sqrt{3})^{2} = (1-\\sqrt{3})(1-\\sqrt{3})\\)\\(1 - 2\\sqrt{3} + 3 = 4 - 2\\sqrt{3}\\)\\(\\frac{1}{4-2\\sqrt{3}}\\)After rationalising (multiplying the denominator and numerator with \\(4+2\\sqrt{3}\\), we have\\(\\frac{4+2\\sqrt{3}}{4} = 1 + \\frac{1}{2}\\sqrt{3}\\)",
+    "options": [
+      {
+        "option": "S",
+        "text": "plify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 4,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "If \\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+    "explanation": "For equal roots, we have that \\(b^{2} = 4ac\\), so, given a=1, b = -k and c = 9,\\((-k)^{2} = 4\\times1\\times9 \\implies k^{2} = 36\\)\\(k = \\sqrt{36} = \\pm6\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 5,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+    "explanation": "The equation for a circle with centre coordinates (a, b) and radius r is\\((x-a)^{2} + (y-b)^{2} = r^{2}\\)Expanding the above equation, we have\\(x^{2} - 2ax +a^{2} + y^{2} - 2by + b^{2} - r^{2} = 0\\) so that\\(x^{2} - 2ax + y^{2} - 2by = r^{2} - a^{2} - b^{2}\\)Taking the original equation given, \\(3x^{2} + 3y^{2} - 4x + 8y = 2\\) and making the coefficients of \\(x^{2}\\) and \\(y^{2}\\) = 1,\\(x^{2} + y^{2} - \\frac{4x}{3} + \\frac{8y}{3} = \\frac{2}{3}\\), comparing, we have\\(2a = \\frac{4}{3}; 2b = \\frac{-8}{3}\\)\\(\\implies a = \\frac{2}{3}; b = \\frac{-4}{3}\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 6,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "The function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+    "explanation": "\\(f : x \\to \\sqrt{4 -2x}\\) defined on the set of real numbers, R, which has range from \\((-\\infty, \\infty)\\) but because of the root sign, it is defined from \\([0, \\infty)\\).\u00a0This is because the root of numbers only has real number values from 0 and upwards.\\(\\sqrt{4-2x} \\geq 0 \\implies 4-2x \\geq 0\\)\\(-2x \\geq -4; x \\leq 2\\)",
+    "options": [
+      {
+        "option": "T",
+        "text": " function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 7,
+    "correctOption": "A",
+    "imageUrl": null,
+    "text": "Given that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+    "explanation": "Let \\(f(x) = y\\), then we have\\(y = \\frac{x+1}{2} \\implies 2y = x+1; x = 2y-1\\)Let \\(f^{1}(x) = x; x = 2y-1\\), replacing y with x,\\(f^{1}(x) = 2x - 1 \\implies f^{1}(-2) = 2(-2) -1= -5\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 8,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "Given that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+    "explanation": "Taking the LCM of the right hand side of the equation, we have\\(\\frac{4(2x-3) - 2(x+5)}{(x+5)(2x-3)} = \\frac{6x+m}{2x^{2}+7x-15}\\)Comparing the numerators, we have\\(4(2x-3) - 2(x+5) = 6x+m\\)\\(8x-12-2x-10 = 6x -22 = 6x + m\\)\\(\\implies m = -22\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 9,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+    "explanation": "\\(^{6}C_{4}(1)^{6-4}(-2x)^{4}\\) = \\(15\\times1\\times16x^{4} = 240x^{4}\\)The coefficient of \\(x^{4}\\)= 240",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 10,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Find the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+    "explanation": "\\(T_{n} = a + (n-1)d\\)\\( d = T_{2} - T_{1} = T_{3} - T_{2} = -1.5 - (-4) = 2.5\\)\\(T_{21} = -4 + (21 - 1) \\times 2.5 = -4 + (20\\times 2.5) \\)= \\(-4 + 50 = 46\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  }
+][
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 1,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "If \\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+    "explanation": "\\(log_{y}\\frac{1}{8} = 3 \\implies y^{3} = \\frac{1}{8}\\) (Laws of logarithm)\\(y^{3} = \\frac{1}{2^{3}} = (\\frac{1}{2})^{3}\\)Equating both sides, we have\\(y = \\frac{1}{2}\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 2,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "A binary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+    "explanation": "\\(a \\Delta b\\) = \\(\\frac{a+b}{\\sqrt{ab}}\\)\\(-3\\Delta -1\\) = \\(\\frac{-3 + -1}{\\sqrt{-3\\times -1}}\\)\\(\\frac{-4}{\\sqrt{3}}\\), rationalising, we have\\(\\frac{-4 \\times \\sqrt{3}}{\\sqrt{3}\\times \\sqrt{3}} = \\frac{-4\\sqrt{3}}{3}\\)",
+    "options": [
+      {
+        "option": "A",
+        "text": "inary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 3,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Simplify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+    "explanation": "\\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)\u00a0\\((1-\\sqrt{3})^{2} = (1-\\sqrt{3})(1-\\sqrt{3})\\)\\(1 - 2\\sqrt{3} + 3 = 4 - 2\\sqrt{3}\\)\\(\\frac{1}{4-2\\sqrt{3}}\\)After rationalising (multiplying the denominator and numerator with \\(4+2\\sqrt{3}\\), we have\\(\\frac{4+2\\sqrt{3}}{4} = 1 + \\frac{1}{2}\\sqrt{3}\\)",
+    "options": [
+      {
+        "option": "S",
+        "text": "plify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 4,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "If \\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+    "explanation": "For equal roots, we have that \\(b^{2} = 4ac\\), so, given a=1, b = -k and c = 9,\\((-k)^{2} = 4\\times1\\times9 \\implies k^{2} = 36\\)\\(k = \\sqrt{36} = \\pm6\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 5,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+    "explanation": "The equation for a circle with centre coordinates (a, b) and radius r is\\((x-a)^{2} + (y-b)^{2} = r^{2}\\)Expanding the above equation, we have\\(x^{2} - 2ax +a^{2} + y^{2} - 2by + b^{2} - r^{2} = 0\\) so that\\(x^{2} - 2ax + y^{2} - 2by = r^{2} - a^{2} - b^{2}\\)Taking the original equation given, \\(3x^{2} + 3y^{2} - 4x + 8y = 2\\) and making the coefficients of \\(x^{2}\\) and \\(y^{2}\\) = 1,\\(x^{2} + y^{2} - \\frac{4x}{3} + \\frac{8y}{3} = \\frac{2}{3}\\), comparing, we have\\(2a = \\frac{4}{3}; 2b = \\frac{-8}{3}\\)\\(\\implies a = \\frac{2}{3}; b = \\frac{-4}{3}\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 6,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "The function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+    "explanation": "\\(f : x \\to \\sqrt{4 -2x}\\) defined on the set of real numbers, R, which has range from \\((-\\infty, \\infty)\\) but because of the root sign, it is defined from \\([0, \\infty)\\).\u00a0This is because the root of numbers only has real number values from 0 and upwards.\\(\\sqrt{4-2x} \\geq 0 \\implies 4-2x \\geq 0\\)\\(-2x \\geq -4; x \\leq 2\\)",
+    "options": [
+      {
+        "option": "T",
+        "text": " function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 7,
+    "correctOption": "A",
+    "imageUrl": null,
+    "text": "Given that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+    "explanation": "Let \\(f(x) = y\\), then we have\\(y = \\frac{x+1}{2} \\implies 2y = x+1; x = 2y-1\\)Let \\(f^{1}(x) = x; x = 2y-1\\), replacing y with x,\\(f^{1}(x) = 2x - 1 \\implies f^{1}(-2) = 2(-2) -1= -5\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 8,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "Given that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+    "explanation": "Taking the LCM of the right hand side of the equation, we have\\(\\frac{4(2x-3) - 2(x+5)}{(x+5)(2x-3)} = \\frac{6x+m}{2x^{2}+7x-15}\\)Comparing the numerators, we have\\(4(2x-3) - 2(x+5) = 6x+m\\)\\(8x-12-2x-10 = 6x -22 = 6x + m\\)\\(\\implies m = -22\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 9,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+    "explanation": "\\(^{6}C_{4}(1)^{6-4}(-2x)^{4}\\) = \\(15\\times1\\times16x^{4} = 240x^{4}\\)The coefficient of \\(x^{4}\\)= 240",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 10,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Find the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+    "explanation": "\\(T_{n} = a + (n-1)d\\)\\( d = T_{2} - T_{1} = T_{3} - T_{2} = -1.5 - (-4) = 2.5\\)\\(T_{21} = -4 + (21 - 1) \\times 2.5 = -4 + (20\\times 2.5) \\)= \\(-4 + 50 = 46\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  }
+][
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 1,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "If \\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+    "explanation": "\\(log_{y}\\frac{1}{8} = 3 \\implies y^{3} = \\frac{1}{8}\\) (Laws of logarithm)\\(y^{3} = \\frac{1}{2^{3}} = (\\frac{1}{2})^{3}\\)Equating both sides, we have\\(y = \\frac{1}{2}\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 2,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "A binary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+    "explanation": "\\(a \\Delta b\\) = \\(\\frac{a+b}{\\sqrt{ab}}\\)\\(-3\\Delta -1\\) = \\(\\frac{-3 + -1}{\\sqrt{-3\\times -1}}\\)\\(\\frac{-4}{\\sqrt{3}}\\), rationalising, we have\\(\\frac{-4 \\times \\sqrt{3}}{\\sqrt{3}\\times \\sqrt{3}} = \\frac{-4\\sqrt{3}}{3}\\)",
+    "options": [
+      {
+        "option": "A",
+        "text": "inary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 3,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Simplify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+    "explanation": "\\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)\u00a0\\((1-\\sqrt{3})^{2} = (1-\\sqrt{3})(1-\\sqrt{3})\\)\\(1 - 2\\sqrt{3} + 3 = 4 - 2\\sqrt{3}\\)\\(\\frac{1}{4-2\\sqrt{3}}\\)After rationalising (multiplying the denominator and numerator with \\(4+2\\sqrt{3}\\), we have\\(\\frac{4+2\\sqrt{3}}{4} = 1 + \\frac{1}{2}\\sqrt{3}\\)",
+    "options": [
+      {
+        "option": "S",
+        "text": "plify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 4,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "If \\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+    "explanation": "For equal roots, we have that \\(b^{2} = 4ac\\), so, given a=1, b = -k and c = 9,\\((-k)^{2} = 4\\times1\\times9 \\implies k^{2} = 36\\)\\(k = \\sqrt{36} = \\pm6\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 5,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+    "explanation": "The equation for a circle with centre coordinates (a, b) and radius r is\\((x-a)^{2} + (y-b)^{2} = r^{2}\\)Expanding the above equation, we have\\(x^{2} - 2ax +a^{2} + y^{2} - 2by + b^{2} - r^{2} = 0\\) so that\\(x^{2} - 2ax + y^{2} - 2by = r^{2} - a^{2} - b^{2}\\)Taking the original equation given, \\(3x^{2} + 3y^{2} - 4x + 8y = 2\\) and making the coefficients of \\(x^{2}\\) and \\(y^{2}\\) = 1,\\(x^{2} + y^{2} - \\frac{4x}{3} + \\frac{8y}{3} = \\frac{2}{3}\\), comparing, we have\\(2a = \\frac{4}{3}; 2b = \\frac{-8}{3}\\)\\(\\implies a = \\frac{2}{3}; b = \\frac{-4}{3}\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 6,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "The function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+    "explanation": "\\(f : x \\to \\sqrt{4 -2x}\\) defined on the set of real numbers, R, which has range from \\((-\\infty, \\infty)\\) but because of the root sign, it is defined from \\([0, \\infty)\\).\u00a0This is because the root of numbers only has real number values from 0 and upwards.\\(\\sqrt{4-2x} \\geq 0 \\implies 4-2x \\geq 0\\)\\(-2x \\geq -4; x \\leq 2\\)",
+    "options": [
+      {
+        "option": "T",
+        "text": " function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 7,
+    "correctOption": "A",
+    "imageUrl": null,
+    "text": "Given that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+    "explanation": "Let \\(f(x) = y\\), then we have\\(y = \\frac{x+1}{2} \\implies 2y = x+1; x = 2y-1\\)Let \\(f^{1}(x) = x; x = 2y-1\\), replacing y with x,\\(f^{1}(x) = 2x - 1 \\implies f^{1}(-2) = 2(-2) -1= -5\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 8,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "Given that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+    "explanation": "Taking the LCM of the right hand side of the equation, we have\\(\\frac{4(2x-3) - 2(x+5)}{(x+5)(2x-3)} = \\frac{6x+m}{2x^{2}+7x-15}\\)Comparing the numerators, we have\\(4(2x-3) - 2(x+5) = 6x+m\\)\\(8x-12-2x-10 = 6x -22 = 6x + m\\)\\(\\implies m = -22\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 9,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+    "explanation": "\\(^{6}C_{4}(1)^{6-4}(-2x)^{4}\\) = \\(15\\times1\\times16x^{4} = 240x^{4}\\)The coefficient of \\(x^{4}\\)= 240",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 10,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Find the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+    "explanation": "\\(T_{n} = a + (n-1)d\\)\\( d = T_{2} - T_{1} = T_{3} - T_{2} = -1.5 - (-4) = 2.5\\)\\(T_{21} = -4 + (21 - 1) \\times 2.5 = -4 + (20\\times 2.5) \\)= \\(-4 + 50 = 46\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  }
+][
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 1,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "If \\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+    "explanation": "\\(log_{y}\\frac{1}{8} = 3 \\implies y^{3} = \\frac{1}{8}\\) (Laws of logarithm)\\(y^{3} = \\frac{1}{2^{3}} = (\\frac{1}{2})^{3}\\)Equating both sides, we have\\(y = \\frac{1}{2}\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 2,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "A binary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+    "explanation": "\\(a \\Delta b\\) = \\(\\frac{a+b}{\\sqrt{ab}}\\)\\(-3\\Delta -1\\) = \\(\\frac{-3 + -1}{\\sqrt{-3\\times -1}}\\)\\(\\frac{-4}{\\sqrt{3}}\\), rationalising, we have\\(\\frac{-4 \\times \\sqrt{3}}{\\sqrt{3}\\times \\sqrt{3}} = \\frac{-4\\sqrt{3}}{3}\\)",
+    "options": [
+      {
+        "option": "A",
+        "text": "inary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 3,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Simplify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+    "explanation": "\\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)\u00a0\\((1-\\sqrt{3})^{2} = (1-\\sqrt{3})(1-\\sqrt{3})\\)\\(1 - 2\\sqrt{3} + 3 = 4 - 2\\sqrt{3}\\)\\(\\frac{1}{4-2\\sqrt{3}}\\)After rationalising (multiplying the denominator and numerator with \\(4+2\\sqrt{3}\\), we have\\(\\frac{4+2\\sqrt{3}}{4} = 1 + \\frac{1}{2}\\sqrt{3}\\)",
+    "options": [
+      {
+        "option": "S",
+        "text": "plify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 4,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "If \\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+    "explanation": "For equal roots, we have that \\(b^{2} = 4ac\\), so, given a=1, b = -k and c = 9,\\((-k)^{2} = 4\\times1\\times9 \\implies k^{2} = 36\\)\\(k = \\sqrt{36} = \\pm6\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 5,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+    "explanation": "The equation for a circle with centre coordinates (a, b) and radius r is\\((x-a)^{2} + (y-b)^{2} = r^{2}\\)Expanding the above equation, we have\\(x^{2} - 2ax +a^{2} + y^{2} - 2by + b^{2} - r^{2} = 0\\) so that\\(x^{2} - 2ax + y^{2} - 2by = r^{2} - a^{2} - b^{2}\\)Taking the original equation given, \\(3x^{2} + 3y^{2} - 4x + 8y = 2\\) and making the coefficients of \\(x^{2}\\) and \\(y^{2}\\) = 1,\\(x^{2} + y^{2} - \\frac{4x}{3} + \\frac{8y}{3} = \\frac{2}{3}\\), comparing, we have\\(2a = \\frac{4}{3}; 2b = \\frac{-8}{3}\\)\\(\\implies a = \\frac{2}{3}; b = \\frac{-4}{3}\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 6,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "The function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+    "explanation": "\\(f : x \\to \\sqrt{4 -2x}\\) defined on the set of real numbers, R, which has range from \\((-\\infty, \\infty)\\) but because of the root sign, it is defined from \\([0, \\infty)\\).\u00a0This is because the root of numbers only has real number values from 0 and upwards.\\(\\sqrt{4-2x} \\geq 0 \\implies 4-2x \\geq 0\\)\\(-2x \\geq -4; x \\leq 2\\)",
+    "options": [
+      {
+        "option": "T",
+        "text": " function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 7,
+    "correctOption": "A",
+    "imageUrl": null,
+    "text": "Given that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+    "explanation": "Let \\(f(x) = y\\), then we have\\(y = \\frac{x+1}{2} \\implies 2y = x+1; x = 2y-1\\)Let \\(f^{1}(x) = x; x = 2y-1\\), replacing y with x,\\(f^{1}(x) = 2x - 1 \\implies f^{1}(-2) = 2(-2) -1= -5\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 8,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "Given that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+    "explanation": "Taking the LCM of the right hand side of the equation, we have\\(\\frac{4(2x-3) - 2(x+5)}{(x+5)(2x-3)} = \\frac{6x+m}{2x^{2}+7x-15}\\)Comparing the numerators, we have\\(4(2x-3) - 2(x+5) = 6x+m\\)\\(8x-12-2x-10 = 6x -22 = 6x + m\\)\\(\\implies m = -22\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 9,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+    "explanation": "\\(^{6}C_{4}(1)^{6-4}(-2x)^{4}\\) = \\(15\\times1\\times16x^{4} = 240x^{4}\\)The coefficient of \\(x^{4}\\)= 240",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 10,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Find the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+    "explanation": "\\(T_{n} = a + (n-1)d\\)\\( d = T_{2} - T_{1} = T_{3} - T_{2} = -1.5 - (-4) = 2.5\\)\\(T_{21} = -4 + (21 - 1) \\times 2.5 = -4 + (20\\times 2.5) \\)= \\(-4 + 50 = 46\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  }
+][
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 1,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "If \\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+    "explanation": "\\(log_{y}\\frac{1}{8} = 3 \\implies y^{3} = \\frac{1}{8}\\) (Laws of logarithm)\\(y^{3} = \\frac{1}{2^{3}} = (\\frac{1}{2})^{3}\\)Equating both sides, we have\\(y = \\frac{1}{2}\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(log_{y}\\frac{1}{8}\\) = 3, find the value of y.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 2,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "A binary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+    "explanation": "\\(a \\Delta b\\) = \\(\\frac{a+b}{\\sqrt{ab}}\\)\\(-3\\Delta -1\\) = \\(\\frac{-3 + -1}{\\sqrt{-3\\times -1}}\\)\\(\\frac{-4}{\\sqrt{3}}\\), rationalising, we have\\(\\frac{-4 \\times \\sqrt{3}}{\\sqrt{3}\\times \\sqrt{3}} = \\frac{-4\\sqrt{3}}{3}\\)",
+    "options": [
+      {
+        "option": "A",
+        "text": "inary operation \\(\\Delta\\) is defined on the set of real numbers, R, by \\(a \\Delta b = \\frac{a+b}{\\sqrt{ab}}\\), where a\\(\\neq\\) 0, b\\(\\neq\\) 0. Evaluate \\(-3 \\Delta -1\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 3,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Simplify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+    "explanation": "\\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)\u00a0\\((1-\\sqrt{3})^{2} = (1-\\sqrt{3})(1-\\sqrt{3})\\)\\(1 - 2\\sqrt{3} + 3 = 4 - 2\\sqrt{3}\\)\\(\\frac{1}{4-2\\sqrt{3}}\\)After rationalising (multiplying the denominator and numerator with \\(4+2\\sqrt{3}\\), we have\\(\\frac{4+2\\sqrt{3}}{4} = 1 + \\frac{1}{2}\\sqrt{3}\\)",
+    "options": [
+      {
+        "option": "S",
+        "text": "plify \\(\\frac{1}{(1-\\sqrt{3})^{2}}\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 4,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "If \\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+    "explanation": "For equal roots, we have that \\(b^{2} = 4ac\\), so, given a=1, b = -k and c = 9,\\((-k)^{2} = 4\\times1\\times9 \\implies k^{2} = 36\\)\\(k = \\sqrt{36} = \\pm6\\)",
+    "options": [
+      {
+        "option": "I",
+        "text": "\\(x^{2} - kx + 9 = 0\\) has equal roots, find the values of k.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 5,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+    "explanation": "The equation for a circle with centre coordinates (a, b) and radius r is\\((x-a)^{2} + (y-b)^{2} = r^{2}\\)Expanding the above equation, we have\\(x^{2} - 2ax +a^{2} + y^{2} - 2by + b^{2} - r^{2} = 0\\) so that\\(x^{2} - 2ax + y^{2} - 2by = r^{2} - a^{2} - b^{2}\\)Taking the original equation given, \\(3x^{2} + 3y^{2} - 4x + 8y = 2\\) and making the coefficients of \\(x^{2}\\) and \\(y^{2}\\) = 1,\\(x^{2} + y^{2} - \\frac{4x}{3} + \\frac{8y}{3} = \\frac{2}{3}\\), comparing, we have\\(2a = \\frac{4}{3}; 2b = \\frac{-8}{3}\\)\\(\\implies a = \\frac{2}{3}; b = \\frac{-4}{3}\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coordinates of the centre of the circle \\(3x^{2}+3y^{2} - 4x + 8y -2=0\\)",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 6,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "The function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+    "explanation": "\\(f : x \\to \\sqrt{4 -2x}\\) defined on the set of real numbers, R, which has range from \\((-\\infty, \\infty)\\) but because of the root sign, it is defined from \\([0, \\infty)\\).\u00a0This is because the root of numbers only has real number values from 0 and upwards.\\(\\sqrt{4-2x} \\geq 0 \\implies 4-2x \\geq 0\\)\\(-2x \\geq -4; x \\leq 2\\)",
+    "options": [
+      {
+        "option": "T",
+        "text": " function f: x \\(\\to \\sqrt{4 - 2x}\\) is defined on the set of real numbers R. Find the domain of f.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 7,
+    "correctOption": "A",
+    "imageUrl": null,
+    "text": "Given that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+    "explanation": "Let \\(f(x) = y\\), then we have\\(y = \\frac{x+1}{2} \\implies 2y = x+1; x = 2y-1\\)Let \\(f^{1}(x) = x; x = 2y-1\\), replacing y with x,\\(f^{1}(x) = 2x - 1 \\implies f^{1}(-2) = 2(-2) -1= -5\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(f(x) = \\frac{x+1}{2}\\), find \\(f^{1}(-2)\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 8,
+    "correctOption": "D",
+    "imageUrl": null,
+    "text": "Given that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+    "explanation": "Taking the LCM of the right hand side of the equation, we have\\(\\frac{4(2x-3) - 2(x+5)}{(x+5)(2x-3)} = \\frac{6x+m}{2x^{2}+7x-15}\\)Comparing the numerators, we have\\(4(2x-3) - 2(x+5) = 6x+m\\)\\(8x-12-2x-10 = 6x -22 = 6x + m\\)\\(\\implies m = -22\\)",
+    "options": [
+      {
+        "option": "G",
+        "text": "en that \\(\\frac{6x+m}{2x^{2}+7x-15} \\equiv \\frac{4}{x+5} - \\frac{2}{2x-3}\\), find the value of m.",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 9,
+    "correctOption": "C",
+    "imageUrl": null,
+    "text": "Find the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+    "explanation": "\\(^{6}C_{4}(1)^{6-4}(-2x)^{4}\\) = \\(15\\times1\\times16x^{4} = 240x^{4}\\)The coefficient of \\(x^{4}\\)= 240",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the coefficient of \\(x^{4}\\) in the expansion of \\((1-2x)^{6}\\).",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  },
+  {
+    "subType": null,
+    "structure": "OBJECTIVE",
+    "number": 10,
+    "correctOption": "B",
+    "imageUrl": null,
+    "text": "Find the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+    "explanation": "\\(T_{n} = a + (n-1)d\\)\\( d = T_{2} - T_{1} = T_{3} - T_{2} = -1.5 - (-4) = 2.5\\)\\(T_{21} = -4 + (21 - 1) \\times 2.5 = -4 + (20\\times 2.5) \\)= \\(-4 + 50 = 46\\)",
+    "options": [
+      {
+        "option": "F",
+        "text": "d the 21st term of the Arithmetic Progression (A.P.):\u00a0 -4, -1.5, 1, 3.5,...",
+        "imageUrl": null
+      }
+    ],
+    "subject": "FURTHER MATHEMATICS",
+    "type": "WAEC",
+    "year": "2017"
+  }
+]

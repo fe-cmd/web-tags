@@ -1,0 +1,76 @@
+{% extends "questans/base.html" %}
+<style>
+  p.flow {
+    word-wrap: break-word; 
+  }
+  </style>
+{% block content %}
+<style>
+p.flow {
+  word-wrap: break-word; 
+}
+</style>
+<div class="container">
+<center>Get access to exclusive web scraping app click below  <br><br>
+  <h3>
+   Your past question on your download for: <hr> {{ title }}
+  </h3><br>
+  <div class="card">
+    <h4>Has a total number of {{ num }} questions</h4> <br>
+    {% for question_details in house %}
+      <div class="media question-item mb-4">
+        <div class="question_sn bg-primary mr-3"><strong>{{ question_details.number }}</strong></div>
+        <div class="media-body">
+          <div class="question-desc mt-0 mb-3">
+            <p>
+              {{ question_details.text }} 
+            </p>
+          </div>
+         <div class="img mb-3">
+          {{ question_details.imageUrl }}
+         </div>
+          <ul class="list-unstyled">
+          {% for items in question_details.options %}
+            <li><strong>{{ items.option }}.</strong>{{ items.text }} -- {{ items.imageUrl}}</li>
+          {% endfor %}
+          </ul>
+          <div>
+          <label for="lang">View Answer &amp; Explanation </label>
+          <select name="lang" id="lang" class="form-select" aria-label="Default select example">
+          <option value=""></option>
+          <option value="">
+          <p>correct Answer is:<p id="demo"><strong>{{question_details.correctOption}}</strong></p></option>
+         </select>
+         <p class="flow" style="word-wrap:break-word;">explanation for this --: {{question_details.explanation.text}} </p>
+          </div>
+        </div>
+      </div>
+      <br><br><hr>
+    {% endfor %} <hr>
+    
+  </div>
+  
+  <br><br>
+  <form method="POST" action="downloads/" class="pat">
+    {% csrf_token %}
+    <h3>Download Option</h3>
+     
+     <select  id="download_type" name="download_type">
+      <option value="" disabled selected>Choose your option</option>
+      <option value="pdf">PDF</option>
+      <option value="csv">CSV</option>
+      <option value="json">JSON</option>
+    </select>
+     <br><br>
+     <center>
+        <button type="submit" value="" class="btn btn-primary" name="submit">Download</button>
+      </center>
+  </form><br>
+  <a href="/filters/">
+    <button type="submit" value="Press" class="btn btn-outline-primary" name="submit">Go Back <---</button></a>
+
+</center><br>
+<br>
+
+</div>
+{% endblock %}
