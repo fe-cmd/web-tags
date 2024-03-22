@@ -33,26 +33,34 @@ from .scrappers import downloadImage, extract, createNewDir, nextPage, convertTo
             result, show_filters, show_filters1, downloadImage1, downloadpq, fetch_questions, \
             fetch_questions1, createNewDir1, convertToPdf1, fetch_me_soup, fetch_me_stew, eat_sweet_soup
 
+
+
 @api_view(['GET','POST'])
 def download_image_api(request):
     # Extract required data from request, if any
     # For example, if you're expecting the image URL as a parameter in the request
-    img_url = request.data.get('img_url')  
-    struct = request.data.get('struct')    
-    num = request.data.get('num')         
+    
+    img_url = request.data.get('imageUrl')  
+    structure = request.data.get('structure')    
+    num = request.data.get('number') 
+    exam_type = request.data.get('type') 
+    subject = request.data.get('subject')   
+    exam_year = request.data.get('year')    
     # Call the downloadImage function
     try:
-        downloadImage(img_url, struct, num)  
-        return Response({'message': 'Image downloaded successfully'}, status=200)
+       downloadImage(img_url, structure, num, exam_type,subject,exam_year)  
+       return Response({'message': 'Image downloaded successfully'}, status=200)
     except Exception as e:
         return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
-
+ 
+    
 @api_view(['GET','POST'])
 def create_newdir_api(request):
     struct = request.data.get('struct')    
-    num = request.data.get('num')    
+    num = request.data.get('num')   
+    exam_type = request.data.get('type')   
     try:
-        path = createNewDir(struct,num)   
+        path = createNewDir(struct,num,exam_type)   
         return Response({'message': 'Directory created successfully', 'path': path}, status=200)
     except Exception as e:
         return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs

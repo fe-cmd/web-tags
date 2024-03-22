@@ -23,9 +23,10 @@ from rest_framework.decorators import api_view
 house = []
 house1 = []
 
-def downloadImage(imgUrl,struct,num):
+
+def downloadImage(imgUrl,structure,num, exam_type,subject,exam_year):
     try:
-        path = createNewDir(struct,num)
+        path = createNewDir(exam_type, structure,num,subject,exam_year)
         
         with open(os.path.join(path,basename(imgUrl)), "wb") as f:
             
@@ -33,7 +34,7 @@ def downloadImage(imgUrl,struct,num):
     except OSError as e:
         print(e.message,e.args)
         
-def createNewDir(struct,num):
+def createNewDir(exam_type, structure,num,subject,exam_year):
     try:
         path = os.path.join(exam_type,subject,structure,str(exam_year),str(num))
         if not os.path.exists(path):
