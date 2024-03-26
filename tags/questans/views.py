@@ -25,8 +25,8 @@ from rest_framework import status
 # Create your views here.
         
 
-house = []
-house1 = []
+#house = []
+#house1 = []
 from .scrappers import downloadImage, extract, createNewDir, nextPage, convertToJson, \
     convertToPdf, getCorrectAnswerExplanation, getImageUrl, getNumber, getOptions, getQuestion, \
         cookSoup, getImageUrl1, extract1, nextPage1, convertToJson1, cookSoup1, writeToFile, \
@@ -34,71 +34,95 @@ from .scrappers import downloadImage, extract, createNewDir, nextPage, convertTo
             fetch_questions1, createNewDir1, convertToPdf1, fetch_me_soup, fetch_me_stew, eat_sweet_soup
 
 
-
-@api_view(['GET','POST'])
-def download_image_api(request):
-    # Extract required data from request, if any
-    # For example, if you're expecting the image URL as a parameter in the request
-    
-    img_url = request.data.get('imageUrl')  
+def get_param1(request):
+    subtype = request.data.get('subtype')
     structure = request.data.get('structure')    
     num = request.data.get('number') 
     exam_type = request.data.get('type') 
     subject = request.data.get('subject')   
-    exam_year = request.data.get('year')    
+    exam_year = request.data.get('year') 
+    house = request.data.get('house')
+    return structure,num,exam_type,subject,exam_year,subtype,house
+@api_view(['GET','POST'])
+def download_image_api(request):
+    # Extract required data from request, if any
+    # For example, if you're expecting the image URL as a parameter in the request
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)
+    img_url = request.data.get('imageUrl')     
     # Call the downloadImage function
     try:
        downloadImage(img_url, structure, num, exam_type,subject,exam_year)  
-       return Response({'message': 'Image downloaded successfully'}, status=200)
+       return Response({'message': 'Image downloaded successfully'}, status=201)     
     except Exception as e:
         return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
- 
-    
+  
 @api_view(['GET','POST'])
 def create_newdir_api(request):
-    struct = request.data.get('struct')    
-    num = request.data.get('num')   
-    exam_type = request.data.get('type')   
+    struct,num,exam_type,subject,exam_year,subtype,house = get_param1(request)
     try:
-        path = createNewDir(struct,num,exam_type)   
-        return Response({'message': 'Directory created successfully', 'path': path}, status=200)
+       path = createNewDir(struct,num,exam_type,subject,exam_year)   
+       print("Path:",path)
+       return Response({'message': 'Directory created successfully', 'path': path}, status=200)
     except Exception as e:
         return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
-
+   
 @api_view(['GET','POST'])
 def extract_data_api(request):
-    soup = request.data.get('soup') 
-    session = request.data.get('session') 
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
     try:
-        result = extract(soup,session)
-        return Response({'result': result}, status=200)
+        soup,newsession =cookSoup(url,session)
+        result = extract(soup,session,house,structure,exam_type,subject,exam_year,subtype)
+        print(result)
+        return Response({'message': 'results extracted successfully', 'results':result}, status=200)
     except Exception as e:
         return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
-
+    
 @api_view(['GET','POST'])
 def next_page_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
     try:
-        # Extracting data from request
-        soup = request.data.get('soup')       # Assuming soup is sent in the request body
-        session = request.data.get('session') # Assuming session is sent in the request body
-
-        # Calling nextPage function to process the data
-        next_page = nextPage(soup, session)
-
-        return Response({'next_page': next_page}, status=200)  # Returning the next page URL, adjust as needed
+       soup,newsession1 =cookSoup(url,session)
+       result2 = nextPage(soup,session,house,structure,exam_type,subject,exam_year,subtype)
+       print(result2)
+       return Response({'message': 'next page results tapped successfully', 'results':result2}, status=200)
     except Exception as e:
-        return Response({'error': str(e)}, status=500)
-    
+        return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
+        
 @api_view(['GET','POST'])
 def convert_to_json_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
     try:
+        soup,newsession1 =cookSoup(url,session)
+        result2 = nextPage(soup,session,house,structure,exam_type,subject,exam_year,subtype)
         # Call the convertToJson function
-        convertToJson()
-        
-        return Response({'message': 'Data converted to JSON successfully'}, status=200)
+        converts = convertToJson(result2,exam_type,subject,exam_year)
+        print(converts)
+        return Response({'message': 'Data converted to JSON successfully', 'converts':converts}, status=200)
+    
     except Exception as e:
         return Response({'error': str(e)}, status=500)
-    
+
 @api_view(['GET','POST'])
 def convert_to_pdf_api(request):
     try:
@@ -111,82 +135,206 @@ def convert_to_pdf_api(request):
     
 @api_view(['POST'])
 def get_options_api(request):
+    quesopt = []
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup,newsession1 =cookSoup(url,session)
     try:
-        # Extracting data from request
-        item = request.data.get('item')  # Assuming 'item' data is sent in the request body
-        num = request.data.get('num')    # Assuming 'num' data is sent in the request body
-
-        # Calling getOptions function to retrieve options data
-        options = getOptions(item, num)
-
-        return Response({'options': options}, status=200)  # Returning the options data
+      if(soup != None and session != None):
+        res = soup.find_all("div",class_="media question-item mb-4")
+        for item in res:
+            # Calling getOptions function to retrieve options data
+            options = getOptions(item,structure,num,exam_type,subject,exam_year)
+            quesopt.append(options)
+        print(quesopt)
+        if(soup != None and session != None):   
+               res2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = res2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    res1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in res1:
+                       options2 = getOptions(item,structure,num,exam_type,subject,exam_year)
+                       for item in options2:
+                           quesopt.append(item["text"][1:200])   
+                 print(quesopt)
+      return Response({'message': 'options listed out successfully for your choice','options': quesopt}, status=200)  # Returning the options data
     except Exception as e:
-        return Response({'error': str(e)}, status=500)
-
+        return Response({'error': str(e)}, status=500)  # Return error response if any exception occurs
+        
 @api_view(['POST'])
 def get_number_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup,newsession1 =cookSoup(url,session)
     try:
-        # Extracting data from request
-        item = request.data.get('item')  # Assuming 'item' data is sent in the request body
+      if(soup != None and session != None):
+        res = soup.find_all("div",class_="media question-item mb-4")
+        for item in res:
+            number = getNumber(item)
+            nums = int(number)
+            print(nums)
+        if(soup != None and session != None):   
+               res2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = res2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    res1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in res1:
+                        number = getNumber(item)
+                        nums = int(number)
+                        print(nums)
 
-        # Calling getNumber function to retrieve the number data
-        number = getNumber(item)
-
-        return Response({'number': number}, status=200)  # Returning the number data
+        return Response({'message': 'numbers here successfully','number': nums}, status=200)  # Returning the number data
     except Exception as e:
         return Response({'error': str(e)}, status=500)
 
 @api_view(['POST'])
 def get_image_url_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup,newsession1 =cookSoup(url,session)
     try:
-        # Extracting data from request
-        item = request.data.get('item')  # Assuming 'item' data is sent in the request body
-        num = request.data.get('num')    # Assuming 'num' data is sent in the request body
-
-        # Calling getImageUrl function to retrieve the image URL data
-        image_url = getImageUrl(item, num)
-
-        return Response({'image_url': image_url}, status=200)  # Returning the image URL data
+      if(soup != None and session != None):
+        res = soup.find_all("div",class_="media question-item mb-4")
+        for item in res:
+            imageurl = getImageUrl(item,num,structure,exam_type,subject,exam_year)
+            print(imageurl)
+        if(soup != None and session != None):   
+               res2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = res2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    res1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in res1:
+                      imageurl = getImageUrl(item,num,structure,exam_type,subject,exam_year)
+                      print(imageurl)  
+      return Response({'message': 'Image url extracted successfully','resulturl': imageurl}, status=200)  # Returning the options data
     except Exception as e:
         return Response({'error': str(e)}, status=500)
 
 @api_view(['POST'])
 def get_question_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup,newsession1 =cookSoup(url,session)
     try:
-        # Extracting data from request
-        item = request.data.get('item')  # Assuming 'item' data is sent in the request body
-
-        # Calling getQuestion function to retrieve the question data
-        question = getQuestion(item)
-
-        return Response({'question': question}, status=200)  # Returning the question data
+      if(soup != None and session != None):
+        res = soup.find_all("div",class_="media question-item mb-4")
+        for item in res:
+            question = getQuestion(item)
+            print(question)
+        if(soup != None and session != None):   
+               res2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = res2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    res1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in res1:
+                      question = getQuestion(item)
+                      print(question) 
+        return Response({'message': 'questions passed success!','question': question}, status=200)  # Returning the question data
     except Exception as e:
         return Response({'error': str(e)}, status=500)
 
 @api_view(['POST'])
 def get_correct_answer_explanation_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)    
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup,newsession1 =cookSoup(url,session)
     try:
-        # Extracting data from request
-        item = request.data.get('item')  # Assuming 'item' data is sent in the request body
+      if(soup != None and session != None):
+        res = soup.find_all("div",class_="media question-item mb-4")
+        for item in res:
+            answer, explanation = getCorrectAnswerExplanation(item)
+            print("the correct answer is {} and its explanation is {}.".format(answer, explanation ))
+        if(soup != None and session != None):   
+               res2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = res2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    res1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in res1:
+                      answer, explanation = getCorrectAnswerExplanation(item)
+                      print("the correct answer is {} and its explanation is {}.".format(answer, explanation ))
+        return Response({'message': 'correct answer explanation success!'}, status=200)  # Returning the question data
+    except Exception as e:
+        return Response({'error': str(e)}, status=500)
 
-        # Calling getCorrectAnswerExplanation function to retrieve the correct answer and explanation data
-        answer, explanation = getCorrectAnswerExplanation(item)
-
+       
         return Response({'correct_answer': answer, 'explanation': explanation}, status=200)  # Returning the correct answer and explanation data
     except Exception as e:
         return Response({'error': str(e)}, status=500)
 
 @api_view(['POST'])
 def cook_soup_api(request):
+    session = HTMLSession()
+    structure,num,exam_type,subject,exam_year,subtype,house = get_param1(request)
+    if structure == "OBJECTIVE":
+            url_Struc = "obj"
+    elif structure == "THEORY":
+            url_Struc = "theory"
+    additional_url = subject.lower().replace(" ","-") + "?exam_type=" + exam_type.lower() + "&" + "exam_year=" + str(exam_year) + "&" + "type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
     try:
-        # Extracting data from request
-        url = request.data.get('url')  # Assuming 'url' data is sent in the request body
-        session = HTMLSession()  # Create an HTMLSession object
-
-        # Calling cookSoup function to retrieve the soup object
-        soup, new_session = cookSoup(url, session)
-
-        return Response({'soup': str(soup)}, status=200)  # Returning the soup object as a string
+        soup,newsession =cookSoup(url,session)
+        print(f'{soup} and also {session}')
+        return Response({'message': 'soup prepared deliciously successfully!'}, status=200)  # Returning the soup object as a string
     except Exception as e:
         return Response({'error': str(e)}, status=500)
 

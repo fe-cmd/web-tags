@@ -43,10 +43,15 @@ def createNewDir(exam_type, structure,num,subject,exam_year):
     except exception as e:
         print(e.message,e.args)
 
-def extract(soup,session):
+def extract(soup,session,house,structure,exam_type,subject,exam_year,subtype):
     try:    
         if(soup != None and session != None):
             results = soup.find_all("div",class_="media question-item mb-4")
+            questext = []
+            correctAns = []
+            quesopt = []
+            form = []
+            subt = []
             for item in results:
                 question_details = {}
                 correctAnswer,explanation = getCorrectAnswerExplanation(item)
@@ -57,9 +62,9 @@ def extract(soup,session):
                 question_details["structure"] = structure
                 number = getNumber(item)
                 question_details["number"] = int(number)
-                imageUrl = getImageUrl(item,number)
+                imageUrl = getImageUrl(item,number,structure,exam_type,subject,exam_year)
                 question_details["imageUrl"] = imageUrl
-                options = getOptions(item,number)
+                options = getOptions(item,structure,number,exam_type,subject,exam_year)
                 question_details["options"] = options
                 if exam_type == "WAEC":
                     question_details["subType"] = subtype
@@ -73,15 +78,61 @@ def extract(soup,session):
                 print("\n\n")
                 print(house)
                 #return house
-            nap = nextPage(soup,session)
-            if nap != None:
-              return nap
+            if(soup != None and session != None):   
+               results2 = soup.find("ul",class_= "pagination flex-wrap")
+               links = results2.find_all("a")
+               nextPage = None
+               #for x in range(1,7):
+               if links[-1].text.lower().strip() == "»":
+                 for x in range(1,len(links)):
+                  nextPage = links[x]["href"]
+                  next,newSession1 = cookSoup(nextPage,session)
+                  if(next != None and session != None):
+                    results1 = next.find_all("div",class_="media question-item mb-4")
+                    for item in results1:
+                       question_details = {}
+                       correctAnswer,explanation = getCorrectAnswerExplanation(item)
+                       question_details["correctOption"] = correctAnswer
+                       correctAns.append(question_details["correctOption"])
+                       question_details["explanation"] = {"text":explanation}
+                       question_Text = getQuestion(item)
+                       question_details["text"] = question_Text
+                       questext.append(question_details["text"])
+                       question_details["structure"] = structure
+                       form.append(question_details["structure"])
+                       number = getNumber(item)
+                       question_details["number"] = int(number) 
+                       figures = int(number)
+                       imageUrl = getImageUrl(item,structure,number,exam_type,subject,exam_year)
+                       question_details["imageUrl"] = imageUrl
+                       options = getOptions(item,structure,number,exam_type,subject,exam_year)
+                       question_details["options"] = options
+                       for item in question_details["options"]:
+                           quesopt.append(item["text"][1:200])                       
+                       if exam_type == "WAEC":
+                           question_details["subType"] = subtype
+                           subt.append(question_details["subType"])
+                       else:
+                            question_details["subType"] = subtype
+                            subt.append(question_details["subType"])
+                       question_details["subject"] = subject
+                       question_details["type"] = exam_type
+                       question_details["year"] = exam_year
+                       print(question_details)
+                       house.append(question_details)
+                       #num = len(house)
+                       print("\n\n")
+                       print(house)
+                       #return house                     
+               else:
+                 convertToJson(house,exam_type,subject,exam_year)
+                 print("End of site reached,thank you for tiffing questions")
            
-            
+                
     except exception as e:
         print(e.message,e.args)
 
-def nextPage(soup,session):
+def nextPage(soup,session,house,structure,exam_type,subject,exam_year,subtype):
     if(soup != "" and session != ""):
         results = soup.find("ul",class_= "pagination flex-wrap")
         
@@ -90,7 +141,7 @@ def nextPage(soup,session):
         if links[-1].text.lower().strip() == "»":
             nextPage = links[-1]["href"]
             next,newSession = cookSoup(nextPage,session)
-            extract(next,session)
+            extract(next,session,house,structure,exam_type,subject,exam_year,subtype)
         else:
              convertToJson(house)
              print("End of site reached,thank you for tiffing questions")
@@ -98,7 +149,7 @@ def nextPage(soup,session):
        
         print("Soup burnt or session expired")
 
-def convertToJson(data):
+def convertToJson(data,exam_type,subject,exam_year):
      filename = "output_" + exam_type + "_" + str(exam_year) + "_"  + subject + ".json"
      with open(filename, 'a') as f:
             json.dump(data, f,indent=2)
@@ -111,7 +162,7 @@ def convertToPdf(data):
            pisa.CreatePDF(data, dest=f, encoding='utf-8')
     house.clear()
              
-def getOptions(item,num):
+def getOptions(item,structure,num,exam_type,subject,exam_year):
     try:
         options = []
         result = item.find("ul",class_="list-unstyled")
@@ -121,7 +172,7 @@ def getOptions(item,num):
             option["option"] = val.find("strong").text.replace(".","").strip()
             option["text"] = val.text.strip()[2:]
             #option_image = val.find("img")
-            image_url = getImageUrl(item,num)
+            image_url = getImageUrl(item,structure,num,exam_type,subject,exam_year)
             if image_url != None:
                 option["imageUrl"] = image_url
                 #downloadImage(image_url,question_details["structure"],question_details["number"])
@@ -140,11 +191,11 @@ def getNumber(item):
     except exception as e:
         print(e.message,e.args)
         
-def getImageUrl(item,num):
+def getImageUrl(item,structure,num,exam_type,subject,exam_year):
     image = item.find("img")
     if not image == None :
         url =image["src"]
-        downloadImage(url,structure,num)
+        downloadImage(url,structure,num,exam_type,subject,exam_year)
         return url
     else:
         return None
