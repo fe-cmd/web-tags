@@ -196,7 +196,7 @@ def convertToJson(data,exam_type,subject,exam_year,structure):
 
 def convertToJsonT(data, exam_type, subject, exam_year, structure):
     try:
-        filename = f"output_{exam_type}_{exam_year}_{subject}_{structure}.json"
+        filename = f"output1_{exam_type}_{exam_year}_{subject}_{structure}.json"
         with open(filename, 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)
         print(f"JSON file saved successfully at {filename}")
@@ -205,6 +205,16 @@ def convertToJsonT(data, exam_type, subject, exam_year, structure):
         print(f"Error converting to JSON: {e}")
         return None
 
+def convertToJsonT1(data, exam_type, subject, exam_year, structure):
+    try:
+        filename = f"output_{exam_type}_{exam_year}_{subject}_{structure}.json"
+        with open(filename, 'w', encoding='utf-8') as json_file:
+            json.dump(data, json_file, ensure_ascii=False, indent=4)
+        print(f"JSON file saved successfully at {filename}")
+        return filename
+    except Exception as e:
+        print(f"Error converting to JSON: {e}")
+        return None
 
 def upload_json_to_api(file_path, api_url):
     if not os.path.exists(file_path):
@@ -1204,6 +1214,121 @@ def fetch_me_stew(request):
         }
         request.session['scraped_data'] = context
         return context
+
+@api_view(['GET', 'POST'])
+def extract_theory_data_api(request):
+    session = HTMLSession()
+    structure, num, exam_type, subject, exam_year, subtype, house = get_param1(request)
+    url_Struc = "theory" if structure == "THEORY" else "obj"
+    additional_url = subject.lower().replace(" ", "-") + "?exam_type=" + exam_type.lower() + "&exam_year=" + str(exam_year) + "&type=" + url_Struc
+    url = "https://myschool.ng/classroom/" + additional_url
+    soup, newsession = cookSoup(url, session)
+
+    if soup is not None and session is not None:
+        results = soup.find_all("div", class_="media question-item mb-4")
+        for item in results:
+            answerLink = item.find("a")
+            base_url = answerLink['href']
+            newsession = HTMLSession()
+            newsoup, newSession = cookSoup(base_url, newsession)
+
+            if newsoup is not None and newsession is not None:
+                result = newsoup.select("div[class='mb-4']")
+                
+                explanations = extract_explanations(result)  # Pass BeautifulSoup elements
+                
+                question_Text = getTheoryQuestion(item)
+                number = getNumber(item)
+                imageUrl = getImageUrl(item, number, structure, exam_type, subject, exam_year)
+
+                # Prepare question data
+                question_data = {
+                    "subType": subtype,
+                    "text": question_Text[0] if question_Text else "",
+                    "subs": build_subs(question_Text, explanations),
+                    "year": exam_year,
+                    "subject": subject.upper(),
+                    "type": exam_type.upper(),
+                    "imageUrl": imageUrl,
+                    "structure": structure,
+                    "Answer": []  # Initialize as empty list
+                }
+
+                # Extract explanations to populate the "Answer" field
+                if explanations:
+                    question_data["Answer"] = "\n".join(
+                        explanation.get("explanation", "")
+                        for explanation in explanations
+                        if explanation.get("explanation")
+                    )
+
+                # Extract structured data for the question
+                question_details = extract_question_data(question_data, explanations)
+                house.append(question_details)
+                print(house)
+
+        # Pagination handling
+        results2 = soup.find("ul", class_="pagination flex-wrap")
+        if results2:
+            links = results2.find_all("a")
+            if links and links[-1].text.lower().strip() == "»":
+                for x in range(1, len(links)):
+                    nextPage = links[x]["href"]
+                    next, newSession1 = cookSoup(nextPage, session)
+                    if next is not None and newSession1 is not None:
+                        results1 = next.find_all("div", class_="media question-item mb-4")
+                        for item in results1:
+                            answerLink = item.find("a")
+                            base_url = answerLink['href']
+                            newsession1 = HTMLSession()
+                            newsoup1, newSession = cookSoup(base_url, newsession1)
+
+                            if newsoup1 is not None and newsession1 is not None:
+                                result = newsoup1.select("div[class='mb-4']")
+                                
+                                explanations = extract_explanations(result)  # Pass BeautifulSoup elements
+                
+                                question_Text = getTheoryQuestion(item)
+                                number = getNumber(item)
+                                imageUrl = getImageUrl(item, structure, number, exam_type, subject, exam_year)
+
+                                # Prepare question data
+                                question_data = {
+                                    "subType": subtype,
+                                    "text": question_Text[0] if question_Text else "",
+                                    "subs": build_subs(question_Text, explanations),
+                                    "year": exam_year,
+                                    "subject": subject.upper(),
+                                    "type": exam_type.upper(),
+                                    "imageUrl": imageUrl,
+                                    "structure": structure,
+                                    "Answer": []  # Initialize as empty list
+                                }
+
+                                # Extract explanations to populate the "Answer" field
+                                if explanations:
+                                    question_data["Answer"] = "\n".join(
+                                        explanation.get("explanation", "")
+                                        for explanation in explanations
+                                        if explanation.get("explanation")
+                                    )
+
+                                # Extract structured data for the question
+                                question_details = extract_question_data(question_data, explanations)
+                                house.append(question_details)
+                                print(house)
+
+        json_file_path = convertToJsonT(house, exam_type, subject, exam_year, structure)
+        if json_file_path:
+            print(f"JSON file saved successfully at {json_file_path}, End of site reached, thank you for tiffing questions" )
+            response = upload_json_to_api(json_file_path, 'https://afternoonprep-tagging.onrender.com/theory')
+            print(response)                                  
+        else:
+            print("Error: JSON file path is invalid.")
+
+    return Response({'message': 'results extracted successfully', 'results': house}, status=200)
+
+
 
 def eat_sweet_soup(request):
     global subject, exam_type, structure, exam_year, subtype

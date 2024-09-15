@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "questans",
-    "questans1",
     "rest_framework",
 ]
 

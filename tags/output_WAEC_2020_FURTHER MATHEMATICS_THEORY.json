@@ -1,0 +1,1704 @@
+[
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p*e = e*p = p",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p + e - \\(\\frac{pe}{2}\\) = p",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "e - \\(\\frac{pe}{2}\\) = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "e(\\(1 - \\frac{p}{2}\\)) = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "e = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p*p\\(^{-1}\\) = e",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p - p\\(^{-1}\\) - \\(\\frac{pp^{-1}}{2}\\)  = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p\\(^{-1}\\) - \\(\\frac{pp}{2}\\) = -p",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p\\(^{-1}\\) (1 - \\(\\frac{p}{2}\\)) = -p",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p\\(^{-1}\\) = \\(\\frac{-p}{1 - \\frac{p}{2}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Inverse of -1 \\(\\to\\) p = -1",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p\\(^{-1}\\) = \\(\\frac{-1}{1 - (\\frac{-1}{2})} = \\frac{-1}{\\frac{3}{2}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{-2}{3}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) m*7 = m + 7 - \\(\\frac{7m}{2}\\), m*5 = m + 5 - \\(\\frac{5m}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "m*7 = m*5, m + 7 - \\(\\frac{7m}{2}\\) = m + 5 - \\(\\frac{5m}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "7 - 5 = -\\(\\frac{5m}{2} + \\frac{7m}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2 = \\(\\frac{2m}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "m = 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "A binary operation * is defined on the set of real numbers R, by p*q = p + q - \\(\\frac{pq}{2}\\), where p, q \\(\\in\\) R. Find the:",
+            "(a) inverse of -1 under * given that the identity clement is zero.",
+            "(b) truth set of m* 7 = m* 5,"
+        ],
+        "structure": "THEORY",
+        "number": 1,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240612504_382501676719800_6586622837224703747_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeHCJdwTF637AL-evjiF_Tx2C5mhjcBgFyYLmaGNwGAXJnZKjSG98j-CigdtsghVRnCDGJccYPcJnDYMlb7nTTwo&_nc_ohc=IgYtjWWxS_wAX9OEPNI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=bd27ac15fa4344ff770116d7b763f0e1&oe=614C1976"
+                },
+                {
+                    "explanation": "P(y) = 2y + 3, q(y) = y\\(^2\\) - 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "q \\(\\cap\\) p = qp(y)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= q(2y + 3)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= (2y + 3)\\(^3\\) - 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 4xy\\(^2\\) + 12y + 9 - 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 4y\\(^2\\) + 12y + 7",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240612504_382501676719800_6586622837224703747_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeHCJdwTF637AL-evjiF_Tx2C5mhjcBgFyYLmaGNwGAXJnZKjSG98j-CigdtsghVRnCDGJccYPcJnDYMlb7nTTwo&_nc_ohc=IgYtjWWxS_wAX9OEPNI&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=bd27ac15fa4344ff770116d7b763f0e1&oe=614C1976"
+                },
+                {
+                    "explanation": "No. of ways = 2 x 5 x 5 x 5",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 250 ways",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) Two functions p and q are defined on the set of real numbers, R, by p : y \\(\\to\\) 2y +3 and q : y -> y - 2. Find QOP",
+            "(b) How many four digits odd numbers greater than 4000 can be formed from 1,7,3,8,2 if repetition is allowed?"
+        ],
+        "structure": "THEORY",
+        "number": 2,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\int^3_1(3x - 2)^5 dx\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Let u = 3x - 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{du}{dx}\\) = 3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "dx = \\(\\frac{dy}{3}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\int^3_1(3x - 2)^5 dx\\) = \\(\\int^7_1 \\frac{u^5}{3} du\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{u^{5 + 1}}{3(5 + 1)}|^7_1\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{u^5}{18}|^7_1\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{7^6}{18} = \\frac{1^6}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{7^6 - 1}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{117649}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 6536",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "Evaluate; \\(\\int^3_1(3x - 2)^5 dx\\)"
+        ],
+        "structure": "THEORY",
+        "number": 3,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{3x^2 + 3x - 2}{(x - 1)(x + 1)}\\) = P + \\(\\frac{Q}{x - 1} + \\frac{R}{x - 1}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Long division",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(x^2 - 1\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "3x\\(^2\\) + 3x - 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "-(3x\\(^2\\) - 3x)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\overline{6x - 2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{6x^{-2}}{(x - 1)(x + 1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{Q}{x - 1} + \\frac{R}{x + 1}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "6x - 2 = Q (x + 1) + R(x - 1)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Let x = -1",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "6(-1) - 2 = Q(-1 + 1) + R (-1 - 1)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "-6 - 2 = -2R",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{-8}{-2} = \\frac{-2R}{-2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "R = 4",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "From 6x - 2 = Q(x - 1) + R(x - 1)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Let x = 1",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "6(1) - 2 = Q(1 + 1) + R(1 - 1)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "6 - 2 = 2Q",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{4}{2} = \\frac{2Q}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= Q = 2",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "If \\(\\frac{3x^2 + 3x - 2}{(x - 1)(x + 1)}\\) = P + \\(\\frac{Q}{x - 1} + \\frac{R}{x - 1}\\)",
+            "Find the value of Q and R"
+        ],
+        "structure": "THEORY",
+        "number": 4,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240675770_177518997812502_8778901898072407169_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeFRScMl2k7f1eIwab7xQZGlcisAPOMMJHByKwA84wwkcFt3ckdDJ45FlWzfCDLH_Hgz2F4tgBwyt3Z9qOYJ3WwM&_nc_ohc=LWilGO5bh0YAX-8Gjsc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6fd91d59efb33ebf5c4b4fa31eb994a2&oe=614BF232"
+                },
+                {
+                    "explanation": "Class boundaries",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240675770_177518997812502_8778901898072407169_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeFRScMl2k7f1eIwab7xQZGlcisAPOMMJHByKwA84wwkcFt3ckdDJ45FlWzfCDLH_Hgz2F4tgBwyt3Z9qOYJ3WwM&_nc_ohc=LWilGO5bh0YAX-8Gjsc&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=6fd91d59efb33ebf5c4b4fa31eb994a2&oe=614BF232"
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) The model score = 57",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "The table shows the distribution of marks scored by 64 students in a test",
+            "(a) Draw a histogram for the distribution.",
+            "(b) Use the histogram to estimate the modal score."
+        ],
+        "structure": "THEORY",
+        "number": 5,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{log_2 ^8 + log_2 ^ {16} - 4 log_2^ 2}{log_4^{16}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{3log_2 ^2 + 4 log_2^ 2 - 4 log_2 2}{2 log_4^4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{3 + 4 - 4}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{3}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_1\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_3\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_7\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_1\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_3\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(_1\\) + T\\(_2\\) = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a + a + d = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2a + d = 6.....(i)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a = a",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a + 2d = ar, a + 6d = ar\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{a + 2d}{a} = \\frac{a + 6d}{a + 2d}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(a + 2d)\\(^2\\)  = \\(\\frac{a + 6d}{a + 2d}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(a + 2d)\\(^2\\) = a(a + 6d)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a\\(^2\\) + 4d\\(^2\\) + 4ad = a\\(^2\\) + 6ad",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "4d\\(^2\\) = 6ad - 4ad",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "4d\\(^2\\) = 2ad",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{4d}{2} = \\frac{2a}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a = 2d ......(ii)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "from;",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2a + d = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2(2d) + d = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "4d + d = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "5d = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "d = \\(\\frac{6}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1\\(\\frac{1}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "from; a = 2d",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "a = \\(\\frac{2 \\times 6}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{12}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 2\\(\\frac{2}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "First term = 2\\(\\frac{2}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Common difference = 1\\(\\frac{4}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) Simplify; \\(\\frac{log_2 ^8 + log_2 ^{16} - 4 log_2 ^2}{log_4^{16}}\\)",
+            "(b) The first, third, and seventh terms of an Arithmetic Progression (A.P) from three consecutive terms of a Geometric Progression (G.P). If the sum of the first two terms of the A.P is 6, find its:",
+            "(I) first term; (ii) common difference."
+        ],
+        "number": 11,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "No. of farmers = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "No. of traders = 8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Total = 14",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Pr(at least two farmers)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{^6C_2 \\times ^8C_2}{^{14}C_4} + \\frac{^6C_3 \\times ^8C_1}{^{14}}+ \\frac{^6C_4 \\times ^8C_0}{^{14}C_4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{15 \\times 28}{1001} + \\frac{20 \\times 8}{1001} + \\frac{15 \\times 1}{1001}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{420}{1001} + \\frac{160}{1001} + \\frac{15}{1001}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{420 + 160 + 15}{1001}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{595}{1001}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) P(x) = \\(\\frac{1}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p(x\\(^1\\)) = 1 - \\(\\frac{1}{5}\\) = \\(\\frac{4}{5}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p(y) = \\(\\frac{1}{2}\\), p(y\\(^1\\))",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - \\(\\frac{1}{12}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{11}{12}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p(2) = \\(\\frac{1}{6}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p(z\\(^1\\)) = 1 - \\(\\frac{1}{6}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{5}{6}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(i) Pr(None)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{4}{5} \\times \\frac{11}{12} \\times \\frac{5}{6} = \\frac{11}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(ii) Pr(all the factories)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{1}{5} \\times \\frac{1}{12} \\times \\frac{1}{6} = \\frac{1}{360^o}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(iii) Pr (at least one factory)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - Pr (none) = \\(\\frac{1}{1} - \\frac{11}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{18 - 11}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{7}{18}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) An association is made up of 6 farmers and 8 traders. If an executive body of 4 members is to be formed, find the probability that it will consist of at least two farmers. (b) The probability of an accident occurring in a given month in factories X, Y, and Z are \\(\\frac{1}{5}, \\frac{1}{12} \\) and \\(\\frac{1}{6}\\) respectively.",
+            "Find the probability that the accident will occur in:",
+            "i) none of the factories;",
+            "(ii) all the factories;",
+            "(iii) at least one factory.",
+            ""
+        ],
+        "number": 12,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240779552_528542294925085_2095985458128044909_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGeyAUaKEba-FmPVzR8gGsi9X74ya24Srf1fvjJrbhKt8vlyZiugshPVYrWabGk6uNxidO1fwbE3JaLT0MdGwvd&_nc_ohc=jnepuBwcsewAX-fC5Ki&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=7d2b33300406fc0ef8d94f46fba118a5&oe=614F9545"
+                },
+                {
+                    "explanation": "(a)(i)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240779552_528542294925085_2095985458128044909_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGeyAUaKEba-FmPVzR8gGsi9X74ya24Srf1fvjJrbhKt8vlyZiugshPVYrWabGk6uNxidO1fwbE3JaLT0MdGwvd&_nc_ohc=jnepuBwcsewAX-fC5Ki&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=7d2b33300406fc0ef8d94f46fba118a5&oe=614F9545"
+                },
+                {
+                    "explanation": "Rank coefficient = I = \\(\\frac{6\\sum d^2}{n(n^2 - 1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - \\(\\frac{6(141)}{10(10^2 - 1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - \\(\\frac{6(141)}{10 \\times 99}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - \\(\\frac{846}{990}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - 0.85",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 0.15",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(ii)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240650903_315369210385231_1594786420214710651_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGgzHUOrDUg0V3TCzkodUQj4KqZPi2Kwafgqpk-LYrBp7E3SSixBM07QCU1FlEOZhvAn-IyFVQLsUTCmSdrCQ8s&_nc_ohc=xYecfZPEqN0AX_qCDOT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a1c782121c1d6bb9b38e18f9e56a411b&oe=614EF0EC"
+                },
+                {
+                    "explanation": "Rank coefficient = 1 - \\(\\frac{6(78)}{10(10^2 - 1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - \\(\\frac{468}{990}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 1 - 0.472",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 0.53",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(iii)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240670935_919706522221448_2711644357531427020_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGkfB8sgtwvdqvf1Dh4-7C75vV7ulO-9pXm9Xu6U772ldOylxbHEpcHdA5iT4YH9APbM1LEyNrH3w-3LE8iFShn&_nc_ohc=NrudO3YOs-oAX_TUAWK&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3a0cdde1fe7deeb3541175de54930a07&oe=614E6BB9"
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Rank coefficient = 1 - \\(\\frac{6(78)}{10(10^2 - 1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 0.53",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) Examiner II and III",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "The essays of 10 candidates were ranked by three examiners as shown in the table.",
+            "",
+            "a) Calculate the Spearman's rank correlation coefficient of the ranks assigned by:",
+            "(i) Examiners I and lI;",
+            "(ii) Examiners I and III",
+            "(iii) Examiners II and II.",
+            "(b) Using the results in (a), state which two examiners agree most.",
+            ""
+        ],
+        "number": 13,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(a) u = 10ms\\(^{-1}\\), a = 0.2m\\(^{-2}\\), s = 100m, t = ?",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "using S = ut + \\(\\frac{1}{2} at^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "100 = 10t + \\(\\frac{1}{2}(0.2)t^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "100 = 10t + 0.1t\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "0.1t\\(^2\\) + 10t - 100 = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{-10 \\pm \\sqrt{10^2 - 4(0.1)(-100)}}{2(0.1)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{-10\\pm \\sqrt{100 + 40}}{0.2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{-10 \\pm \\sqrt{140}}{0.2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{-10 \\pm 11.83}{0.2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{-10 - 11.82}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{1.83}{0.2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = \\(\\frac{21.83}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "t = 9.15 seconds",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b)(i) S = t\\(^2\\) - 5 + 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "v =  \\(\\frac{ds}{dt}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 2t - 5",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "at t = 0, y = 2(0) - 5",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= - 5ms\\(^{-1}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "The initial velocity is 5 in the negative direction",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(ii) When t = 0, S = t\\(^2\\) - 5t + 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "S = 0\\(^2\\) - 5(0) + 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "S = 6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "The distance is 6m",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) A car is moving with a velocity of 10ms\\(^{-1}\\) It then accelerates at 0.2ms\\(^{-2}\\) for 100m. Find, correct to two decimal places the time taken by the car to cover the distance.",
+            "(b) A particle moves along a straight line such that its distance S metres from a fixed point O is given by S = t\\(^2\\) - 5t + 6, where t is the time in seconds. Find its:",
+            "(i) initial velocity;",
+            "(ii) distance when it is momentarily at rest"
+        ],
+        "number": 14,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240784282_600525764658745_2275215893478098439_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEVfwbnlF8aqxTul3FP-gqBmmxvLSrsir2abG8tKuyKveN8mC28bohGNpu2BE1xPs7NMWRQ5EMnUw3-hYjL-nMN&_nc_ohc=w5zvu5As-LMAX_8pCky&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=d339ea6423f8842498baf148e8c320ac&oe=614CB2EB"
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240784282_600525764658745_2275215893478098439_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEVfwbnlF8aqxTul3FP-gqBmmxvLSrsir2abG8tKuyKveN8mC28bohGNpu2BE1xPs7NMWRQ5EMnUw3-hYjL-nMN&_nc_ohc=w5zvu5As-LMAX_8pCky&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=d339ea6423f8842498baf148e8c320ac&oe=614CB2EB"
+                },
+                {
+                    "explanation": "Cos \\(\\theta\\) = \\(\\frac{(2.4)^2 + (1.8)^2 - (3)^2}{2(2.4)(1.8)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\theta\\) = \\(\\frac{5.76 + 3.4 - 9}{8.64}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\theta\\) = \\(\\frac{0.0}{8.64}\\) = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\theta\\) cos\\(^{-1}\\) 0 = 90\\(^o\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "< XOY = 90\\(^o\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) Magnitude of the force p",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\alpha\\) = \\(\\frac{(3)^2 + (2.4)^2 - (1.8(^2}{2(3)(2.5)}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\alpha\\) = = \\(\\frac{9 + 5.76 - 3.24}{14.4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\alpha\\) = \\(\\frac{11.52}{14.4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "cos \\(\\alpha\\) = 0.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\alpha\\) = cos \\(^{-1}\\) 0.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 36.86\\(^o\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{p}{2.4} = cos 36.86^o\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p = 2.4 x 0.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p = 1.92N",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(c) The tension T in the string",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(^2\\) = 8\\(^2\\) + 1.92\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T\\(^2\\) = 64 + 3.59",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Tv = 67.69",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T = \\(\\sqrt{67.69}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "T = 8.23N",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "",
+            "The diagram is that of a light inextensible string of length 4.2m, whose ends are attached to two fixed points X and Y, 3m apart, and on the same horizontal level. A body of mass 800g is hung on the string at a point O, 2.4m from Y. If the system is kept in equilibrium by a horizontal force P acting on the body and the tensions are equal, calculate:",
+            "(a) < XOY;",
+            "(b) the magnitude of the force P;",
+            "(c) the tension T in the string."
+        ],
+        "number": 15,
+        "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p228x119/240679441_946303769253147_5964611233348664124_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeF7A-Y3hdN0L2m54vVKhjY2r3OUIxo4usSvc5QjGji6xHhdq23WiwHWWRF4GSrYq7hhuMyUyDfuLbtMZISGvxAK&_nc_ohc=quJptuBfObkAX-MK9lO&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=92bde206b86b292f498a75794235d752&oe=614C3ED7",
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "No. of red = 10, No of green = 8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Total = 18",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "P(RG) = P(R) x P(G)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{10}{18} \\times \\frac{8}{17} = \\frac{40}{152}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "P(GR) = P(G) x P(R)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{8}{18} \\times \\frac{10}{17} = \\frac{40}{153}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "P(one red and one green)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{40}{153} + \\frac{40}{153} = \\frac{80}{153}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) P = 20% = \\(\\frac{20}{100}\\) = 0.2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "q = 1 - P = 1 - 0.2 = 0.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "n = 12",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "P(2 \\(\\leq x \\leq 5\\)) = P(5) - P(2)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(^{12}C_5(0.5)^5 (0.8)^7 - ^{12}C_2(0.2)^2(0.8)^{10}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 792 x (0.2)\\(^5\\) (0.8)\\(^7\\) - 65(0.2)\\(^2\\)(0.8)\\(^10\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 0.04892 - 0.2791",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 0.2302",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) A bag contains 10 red and 8 green identical balls. Two balls are drawn at random from the bag, one after the other, without replacement. Find the probability that one is red and the other is green.",
+            "(b) There are 20% defective bulbs in a large box. If 12 bulbs are selected randomly from the box, calculate the probability that between two and five are defective."
+        ],
+        "number": 6,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240655664_425603192228106_8384467034316991621_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGSZ6nlz0vtDsrSiT4Ixvew_iS3zV_ttkT-JLfNX-22REs-MUyw6v_ng9Og9sOY5TBDfZ6SexqLgV10B7o45cOH&_nc_ohc=i2b65vLK9bwAX9XNFAq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=dbea4a71db4088df2fb8f3342134f5d6&oe=614EC2CF"
+                },
+                {
+                    "explanation": "F\\(_1\\) = (10N, 090\\(^o\\)), F\\(_2\\) = (20N, 210\\(^o\\))",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "F\\(_3\\) = (4N, 33\\(^o\\))",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240655664_425603192228106_8384467034316991621_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeGSZ6nlz0vtDsrSiT4Ixvew_iS3zV_ttkT-JLfNX-22REs-MUyw6v_ng9Og9sOY5TBDfZ6SexqLgV10B7o45cOH&_nc_ohc=i2b65vLK9bwAX9XNFAq&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=dbea4a71db4088df2fb8f3342134f5d6&oe=614EC2CF"
+                },
+                {
+                    "explanation": "F\\(_3\\) component x - axis",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= - 4 cos 60\\(^o\\)  = - 2N",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "F\\(_2\\) along y - axis",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 20 x cos 30\\(^o\\) = -1.7320",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/p206x206/240639950_272815077654648_4155969325345267960_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=aee45a&_nc_eui2=AeEn29CVe146PvLTK-NSsLxkWpQ-GdAsMDpalD4Z0CwwOlItqYzTRmKvzvvnIE-wBoVYMRnpGPYS5H63u469OTKp&_nc_ohc=On8nzd5LS2QAX8stRxA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=1cefcd04c7930f130dbf20c08584a700&oe=614DDD9B"
+                },
+                {
+                    "explanation": "\\(\\frac{8N}{-1.732N}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Resultant force",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\sqrt{8^2 + (-1.732)^2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\sqrt{65.999}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 8.185N",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 8.2N",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "Forces F\\(_1\\)(10N, 090°) and F\\(_2\\)(20N, 210\\(^o\\)) and (4N,330°) act on a particle, Find, correct to one decimal place, the magnitude of the resultant force."
+        ],
+        "number": 7,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "W = 8i + 3J",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "X = 6i - 5J",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Y = 2i + 3J",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "w + x - 2y = 8i + 3j + 6i - 5j - 2(2i + 3j)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 10i - 8j",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Z = \\(\\frac{10i - 8j}{|Z|}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{10i - 8j}{4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{10i}{4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{8j}{4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{5}{2}\\)i - 2j",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "Given that w = 8i + 3j, x = 6i - 5j, y = 2i + 3j and |z| = 41. find z in the direction of w + x - 2y."
+        ],
+        "number": 8,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(a) Using long division",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "x + 2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2x\\(^2\\) + 7x - 15",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2x\\(^3\\) + 11x^2 - x -30",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "-  (2x\\(^3\\) + 4x\\(^2\\))",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\overline{7^2 - x - 30}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "- (7x\\(^2\\) + 14x) - 3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\overline{-15x - 30}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "- 15x - 30",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\overline{0}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(x + 2)(2x\\(^2\\) + 7x - 15)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(x + 2)(2x - 3)(x - 5)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "zeros of g (x) are;",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "x + 2 =0, 2x - 3 = 0",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "x + 5 = 0, x = -2",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "x = \\(\\frac{5}{2}\\) and x = -5",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b) 3(2^\\(^x\\)) + 3\\(^{y - 2}\\) = 25 .......x1",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) - 3\\(^{y + 1}\\) = -19 .........x3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "3(2\\(^x\\)) + 3\\(^{y - 2}\\) = 25",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "3\\(^{y - 2}\\) + 3(3\\(^{y + 1}\\)) = 82",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{3^y}{9} + \\frac{3^y}{1}\\) = 82",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{3^y + 9(3^y)}{9}\\) = 82",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "3\\(^y\\) + 9(3\\(^y)\\)) = 82 x 9",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "let p = 3y",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p + qp = 738",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{10p}{10} = \\frac{738}{10}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "p = 73.8, 3\\(^y\\) = 73.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "log3\\(^y\\) = log 73.8",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{y log 3}{log 3} = \\frac{log 73.8}{\\log 3}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "y = 3.9",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "from",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) + 3\\(^{y + 1}\\) = - 19",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) + 3\\(^{3.9 + 1}\\) = - 19",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) + 3\\(^{4 - 9}\\) = - 19",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) - 217.7 = - 19",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2\\(^x\\) = 198.71",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "log 2\\(^x\\) = log 198.71",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{x \\log 2}{log 2} = \\frac{log 198.71}{log 2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "x  = 7.6",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) If (x + 2) is a factor of g(x) = 2x\\(^3\\) +11x\\(^2\\) - x - 30, find the zeros of g(x).",
+            "(b) Solve 3(2\\(^x\\)) +3\\(^{y - 2}\\) = 25 and 2x - 3\\(^{y + 1}\\) = -19 simultaneously.",
+            ""
+        ],
+        "number": 9,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    },
+    {
+        "correct explanation": {
+            "text": [
+                {
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "y = x\\(^2\\)(1 + x)\\(^{\\frac{3}{2}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Let u = x\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "v = (1 + x)\\(^{\\frac{3}{2}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{du}{dx} 2x\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{dv}{dx} = \\frac{3}{2}\\)(1 + x)\\(^\\frac{1}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{dy}{dx} = v\\frac{du}{dx} + u\\frac{dv}{dx}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= (1 + x)\\(^{\\frac{3}{2}}\\)(2x) + x\\(^2\\)\\(\\frac{3}{2}(1 + x)^{\\frac{1}{2}}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= 2x(1 + x)\\(^{\\frac{3}{2}}\\) + \\(\\frac{3x^2(1 + x)^{\\frac{1}{2}}}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(b)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "2y - x = 3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "when x = 0, y  = \\(\\frac{3}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "when y = 0, x = -3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "h = -3, k = \\(\\frac{3}{2}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "Using",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(x - h)\\(^2\\) + (y - k)\\(^2\\)  = r\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(x + 3)\\(^2\\)  + (y - \\(\\frac{3}{2}\\))\\(^2\\)  = r\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "r(2, 3), x = 2, y = 3",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(2 + 3)\\(^2\\)  + (3 + \\(\\frac{3}{2}\\))\\(^2\\)  = r\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "\\(\\frac{109}{4}\\) = r\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "The equation will give",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "(x + 3)\\(^2\\)  + (y - \\(\\frac{3}{2}\\))\\(^2\\)",
+                    "imageUrl": null
+                },
+                {
+                    "explanation": "= \\(\\frac{109}{4}\\)",
+                    "imageUrl": null
+                },
+                {
+                    "imageUrl": null
+                }
+            ]
+        },
+        "text": [
+            "(a) Find the derivative of y = x\\(^2\\) (1 + x)\\(^{\\frac{3}{2}}\\) with respect to x.",
+            "(b) The centre of a circle lies on the line 2y - x = 3. If the circle passes through P(2,3) and Q(6,7), find its equation."
+        ],
+        "number": 10,
+        "imageUrl": null,
+        "options": [],
+        "subType": "MAY/JUNE",
+        "subject": "FURTHER MATHEMATICS",
+        "type": "WAEC",
+        "year": "2020"
+    }
+]

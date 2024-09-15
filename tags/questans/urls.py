@@ -6,7 +6,7 @@ from .views import download_image_api, create_newdir_api, extract_data_api, next
     convert_to_json_api, convert_to_pdf_api, get_options_api, get_number_api, get_image_url_api, \
         get_question_api, get_correct_answer_explanation_api, cook_soup_api, write_to_file_api, \
     fetch_me_soup_api, fetch_me_stew_api, eat_sweet_soup_api, \
-        result_home_api, extract_theory_data_api, next_pagetheory_api 
+        result_home_api, extract_theory_data_api, next_pagetheory_api, extract_theory1_data_api
         
 app_name = "questans"
 
@@ -22,6 +22,7 @@ urlpatterns = [
     path('create-directory/', views.create_newdir_api, name='create_newdir_api'),
     path('extract-data/', views.extract_data_api, name='extract_data_api'),
     path('extract-theory-data/', views.extract_theory_data_api, name='extract_theory_data_api'),
+    path('extract-theory1-data/', views.extract_theory1_data_api, name='extract_theory1_data_api'),
     path('next-page/', views.next_page_api, name='next_page_api'),
     path('next-pagetheory/', views.next_pagetheory_api, name='next_pagetheory_api'),
     path('convert-to-json/', views.convert_to_json_api, name='convert_to_json_api'),
